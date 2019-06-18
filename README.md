@@ -9,9 +9,9 @@ Homepage: https://moneymanager.gq<br /> <br />
 ## Technical overview
 Fully responsive design - works with all browsers and devices.<br/><br/>
 **Built with**
- - Firebase Cloud functions for server-side processing (using NodeJS)
+ - Firebase Cloud Functions for server-side processing (using NodeJS)
  - Firestore for database
- - ReactJS for the front-end (hosted on firebase)
+ - ReactJS for the front-end (hosted on Firebase)
  - Firebase Authentication for user management
 (tldr; Full-stack app with FERN stack)
 
