@@ -26,7 +26,7 @@ Full-stack web application for recording and monitoring daily finances.<br/>
     <i>Everything else is boilerplate code.</i>
  - 'functions' folder contains Firebase Cloud Functions code
     - entry point at 'index.js'
-    - '/routes/api/exchanges.js' contains all the core server-side process and authentication
+    - '/routes/api/exchanges.js' contains all the core server-side logic and request authentication
     - '/keys' folder has to contain firebase-admin SDK private key (firebase project console-->project settings-->service accounts)
  - 'android' folder contains relevant code for the one (and only) activity in the project (i.e. MainActivity)
     - MainActivity contains a WebView which loads the [web app url](https://moneymanager.gq/app)
