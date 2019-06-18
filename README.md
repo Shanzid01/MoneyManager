@@ -34,6 +34,7 @@ Homepage: https://moneymanager.gq<br /> <br />
 
 **External resources/libraries**
  - [Materialize.css](https://materializecss.com/) for the UI/UX
+ - [React ChartJS 2](https://github.com/jerairrest/react-chartjs-2) for data visualization
 
 ## Author
 
