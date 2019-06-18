@@ -1,10 +1,10 @@
 # MoneyManager
-Full-stack web application for recording and monitoring daily finances.<br/>
+Full-stack web application for recording and monitoring daily finances.<br/><br />
 **Web app: https://moneymanager.gq/app**<br/>
 **Android app: https://play.google.com/store/apps/details?id=com.shanzid.moneymanager**<br />
-Homepage: https://moneymanager.gq
+Homepage: https://moneymanager.gq<br /> <br />
 <image src="screen.png" />
-
+<br/>
 **Built with**
  - Firebase Cloud functions for server-side processing (using NodeJS)
  - Firestore for database
