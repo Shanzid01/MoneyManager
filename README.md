@@ -5,6 +5,8 @@ Full-stack web application for recording and monitoring daily finances.<br/><br 
 Homepage: https://moneymanager.gq<br /> <br />
 <image src="screen.png" />
 <br/>
+
+## Technical overview
 **Built with**
  - Firebase Cloud functions for server-side processing (using NodeJS)
  - Firestore for database
