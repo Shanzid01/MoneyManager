@@ -18,12 +18,12 @@ Fully responsive design - works with all major browsers and devices.<br/><br/>
 
  **Project folder structure**
  - 'client' folder contains all front-end code (built with create-react-app)
-    - 'client/src/components' contains all "dumb" components
-    - 'client/src/containers' contains all the primary screens
-    - 'client/src/styles' contains all css styling
-    - 'client/src/helpers' contains some basic Javascript code to help with some generic functions
-    - 'client/src/keys' has to contain **your own** project configurations (obtained from firebase project console)
-    - 'client/build' contains compiled code (`npm run build`)
+    - '/src/components' contains all "dumb" components
+    - '/src/containers' contains all the primary screens
+    - '/src/styles' contains all css styling
+    - '/src/helpers' contains some basic Javascript code to help with some generic functions
+    - '/src/keys' has to contain **your own** project configurations (obtained from firebase project console)
+    - '/build' contains compiled code (`npm run build`)
     - index.js contains all routing configurations <br/>
     <i>Everything else is boilerplate code.</i>
  - 'functions' folder contains Firebase Cloud Functions code
