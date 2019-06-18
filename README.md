@@ -7,6 +7,7 @@ Homepage: https://moneymanager.gq<br /> <br />
 <br/>
 
 ## Technical overview
+Fully responsive design - works with all browsers and devices.<br/><br/>
 **Built with**
  - Firebase Cloud functions for server-side processing (using NodeJS)
  - Firestore for database
@@ -35,10 +36,11 @@ Homepage: https://moneymanager.gq<br /> <br />
 **External resources/libraries**
  - [Materialize.css](https://materializecss.com/) for the UI/UX
  - [React ChartJS 2](https://github.com/jerairrest/react-chartjs-2) for data visualization
+ - [Google Analytics](https://analytics.google.com/analytics/web/) for app monitoring
 
 ## Author
 
-* **Shanzid Shaiham** - *Initial work* - [Shanzid](https://shanzid.com)
+* **[Shanzid Shaiham](https://shanzid.com)** - *Initial work*
 
 ## License
 
