@@ -1,0 +1,73 @@
+.logo{
+    font-size: 21px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.7px;
+}
+.menu-options{
+    margin-left: 0px !important;
+}
+.menu-options > .material-icons{
+    margin-right: 5px;
+}
+.menu-container{
+    margin-right: -4px;
+}
+
+@media only screen and (max-width: 601px){
+    .logo{
+        padding-left: 0px;
+        font-size: 17px;
+    }
+    .sidenav-trigger{
+        margin-right: 10px !important;
+    }
+    .menu-container{
+        margin-right: -15px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .menu-options{
+        width: 40px;
+        height: 40px;
+        line-height: 40px !important;
+        padding: 0;
+        color: #fff;
+        margin-top: -2px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+        border-radius: 100%;
+        outline: 0;
+    }
+    .menu-options>i{
+        text-align: center;
+        width: inherit;
+        color: #fff;
+        line-height: 40px !important;
+    }
+}
+.sidenav-overlay{
+    z-index: 0;
+    background: rgba(0,0,0,0);
+}
+.sidenav-trigger{
+    cursor: pointer;
+}
+.unverified-alert{
+    color:#FB8C00;
+    display: block;
+    position: absolute;
+    top: 33px;
+    font-size: 11px;
+    display: inline-block;
+    height: 10px;
+    margin-bottom: -10px;
+}
+.unverified-alert>.material-icons{
+    font-size: 13px;
+    height: auto;
+    line-height: auto;
+    vertical-align: sub;
+    width:15px;
+    display: inline-block;
+}

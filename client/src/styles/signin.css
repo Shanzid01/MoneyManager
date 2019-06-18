@@ -1,0 +1,77 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    box-shadow: 0 0 0 30px white inset !important;
+}
+
+.signin-container{
+    padding-left: 0px !important;
+}
+.signin-form{
+    margin: 30px auto 0px auto;
+    max-width: 400px;
+    padding: 20px 20px;
+    background: white;
+    border-radius: 10px;
+}
+a, .redirect-link{
+    cursor: pointer;
+}
+.app-title{
+    font-size: 25px !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+
+}
+.text-field{
+    margin-bottom: 20px;
+}
+.login-title{
+    font-size: 27px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: solid teal 6px;
+    margin-left: -20px;
+}
+.register-title{
+    border-left: solid #2196F3 6px;
+}
+.login-btn{
+    height: 40px !important;
+    width: 145px !important;
+    padding: 2px 40px !important;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    border-radius: 7px;
+}
+.float-fix{
+    float: none !important;
+    margin-top: -3px !important;
+    display: block !important;
+}
+.signin-loader{
+    height:43px !important
+}
+.redirect-link{
+    opacity: 0.7;
+    color: #37474F;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.recovery-btn{
+    width: 100% !important;
+    text-transform: none;
+}
+@media only screen and (max-width: 601px){
+    .z-depth-4{
+        box-shadow: 0 0px 11px 0 rgba(0,0,0,0.05), 0 4px 15px 0 rgba(0,0,0,0);
+    }
+}

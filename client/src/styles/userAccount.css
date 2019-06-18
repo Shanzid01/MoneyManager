@@ -1,0 +1,70 @@
+.user-basic-container{
+    text-align: center;
+    padding: 3vh 0px 10px 0px;
+}
+.user-image{
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    border-radius: 100%;
+    background: teal;
+    color:white;
+    margin:0px auto;
+}
+.user-image>.material-icons{
+    font-size: 35px;
+    line-height: 75px;
+}
+.userinfo-name{
+    font-size: 25px;
+    display: block;
+    margin-top: 5px;
+}
+.userinfo-email{
+    font-size: 15px;
+    color:grey;
+    display: block;
+}
+.userinfo-email>.material-icons{
+    vertical-align: sub;
+    font-size: 19px;
+    margin-right: 3px;
+}
+.email-verification-link{
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.collapsible-header{
+    padding: 15px 15px;
+}
+.collapsible-header>.material-icons{
+    margin:0px 5px 0px 0px;
+}
+.user-save-btn{
+    padding-left:15px;
+    padding-right: 15px;
+    background: rgba(0,0,0,0.05) !important;
+    color: rgba(0,0,0,0.5);
+    font-weight: bold;
+    font-size: 13.2px;
+    text-transform: none;
+    border-radius: 10px;
+    margin-left: auto;
+    width:80px;
+}
+.user-save-btn:hover{
+    background: rgba(0,0,0,0.1) !important;
+}
+.user-save-btn-loader{
+    margin-top: -2px;
+}
+.user-message{
+    color: #37474F;
+}
+.user-delete-btn{
+    text-transform: none;
+    display: block;
+    width: 200px;
+    margin-top: 20px;
+}

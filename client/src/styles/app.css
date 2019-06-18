@@ -1,0 +1,29 @@
+.exchanges-loader{
+    text-align: center;
+    margin-top: 30px;
+}
+.empty-list-alert{
+    position: fixed;
+    top: 20vh;
+    right:0px;
+    padding-bottom:20vh;
+    display: table;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    color:grey;
+    font-family: sans-serif;
+    opacity: 0.4;
+}
+.empty-list-alert div{
+    display: table-cell;
+    vertical-align:middle;
+}
+.empty-list-alert>div>.material-icons{
+    font-size: 6em;
+    margin-top: -30px;
+}

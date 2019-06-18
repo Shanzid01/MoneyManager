@@ -1,0 +1,59 @@
+.entry-type{
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 12px;
+    margin: 0px 25px 0px 0px;
+    transition: all ease-in 0.1s;
+    font-weight: bold;
+    color: #263238;
+}
+.text-inputs{
+    margin-top: 17px;
+}
+.input-field{
+    margin-top: 3px !important;
+}
+.modal-header-container{
+    line-height: 10px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+.close-modal-icon{
+    opacity: 0.6;
+    margin-top: -5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 0.1s;
+}
+.close-modal-icon:hover{
+    opacity: 1;
+    color:red;
+}
+.modal-header-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.waves-button-input{
+    color:white !important;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 0px 30px;
+}
+.save-exchange-btn{
+    margin-bottom: 10%;
+    width: 80px;
+}
+.save-loader{
+    margin-top: -2px;
+}
+.modal{
+    overflow-y: visible !important;
+}
+.save-btn{
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+.chip-input-container{
+    margin-top: -5px !important;
+}

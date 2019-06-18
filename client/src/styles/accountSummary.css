@@ -1,0 +1,66 @@
+.parent-content{
+    color:white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.account-selection{
+    padding-top: 0px;
+    text-align: center;
+    text-shadow: none;
+    color:white;
+}
+.account-dropdown{
+    padding-right: 55px;
+    margin-right: -55px;
+}
+.account-dropdown:active{
+    -webkit-tap-highlight-color:transparent;
+}
+.account-selection span{
+    color:white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    opacity: 0.75;
+    transition: all ease 0.1s;
+}
+.account-selection span:active, .account-selection span:hover{
+    opacity: 1;
+}
+.account-selection>span>.material-icons{
+    vertical-align: sub;
+    font-size: 19px;
+    margin-left: -4px;
+}
+#dropdown1{
+    border-radius: 5px;
+}
+#dropdown1>.disabled>span{
+    color:grey;
+    opacity:1;
+}
+#dropdown1>.disabled:hover{
+    background: white;
+    border:none !important;
+}
+.account-balance{
+    margin:0px auto;
+    padding:5px 0px 30px 0px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: -25px;
+    text-align: center;
+    text-shadow: 0px 2px 2px #0000005e;
+}
+.balance-text{
+    font-size: 5em;
+    margin-top: -15px;
+}
+.balance-decimal{
+    margin-left: 2px;
+    font-size: 30px;
+}
+.dollar{
+    font-size: 30px !important;
+    font-weight: bolder;
+    margin-right: 5px;
+}

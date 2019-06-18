@@ -1,0 +1,109 @@
+body{
+    font-family:'Lato'
+}
+.bottom-line{
+    font-size: 17px;
+}
+.chart-container{
+    float: right;
+    width: 50%;
+}
+.legend-container{
+    width: 50%;
+    margin-top: 10px;
+}
+.legend-color{
+    height: 11px;
+    width: 11px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: -1px;
+}
+.legend-name{
+    margin-top: -5px;
+    font-size: 12px;
+}
+#stat-summary{
+    min-height: 100px;
+}
+.remaining-percent{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.half-container{
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.half{
+    width: 50%;
+    height: 100%;
+    line-height: normal;
+    text-align: center;
+    display: inline-block;
+}
+.half-title{
+    font-size: 1.25em !important;
+}
+.half-amount{
+    font-size: 3em !important;
+    font-weight: bold;
+}
+.stat-loader{
+    float: right;
+}
+@media only screen and (max-width: 601px){
+    .container-for-stats{
+        padding: 10px 5px !important;
+        margin:0px;
+        width: 100%;
+    }
+    .container-for-stats>.row>.col>.card{
+        margin-bottom: 5px;
+    }
+    .account-selection-stats{
+        margin-top: 0px !important;
+    }
+}
+@media only screen and (min-width: 993px){
+    .container {
+        width: 100%;
+    }
+}
+.account-selection-stats{
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: -15px;
+}
+.account-selection-stats span{
+    color:#263238;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    opacity: 1;
+    opacity: 0.7;
+}
+.account-selection-stats span:active, .account-selection-stats span:hover{
+    opacity: 1;
+}
+.account-selection-stats>span>.material-icons{
+    vertical-align: sub;
+    font-size: 24px;
+    margin-left: -4px;
+}
+#dropdown1{
+    border-radius: 5px;
+}
+#dropdown1>.disabled>span{
+    color:grey;
+    opacity:1;
+}
+#dropdown1>.disabled:hover{
+    background: white;
+    border:none !important;
+}

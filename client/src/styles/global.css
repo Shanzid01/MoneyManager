@@ -1,0 +1,111 @@
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 200px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(31, 88, 114);
+}
+::-webkit-scrollbar-thumb:active {
+    background: rgb(32, 53, 63);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+::placeholder {
+    color: #9e9e9e;
+    font-size: 1rem;
+}
+  
+:-ms-input-placeholder {
+    color: #9e9e9e;
+    font-size: 1rem;
+}
+  
+::-ms-input-placeholder {
+    color: #9e9e9e;
+    font-size: 1rem;
+}
+
+.modal.bottom-sheet{
+    max-height: 90vh;
+    border-radius: 10px !important;
+    margin-bottom: -10px;
+}
+body{
+    background: #FAFAFA !important;
+    padding-bottom: 85px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.fade-enter{
+    opacity: 0.01;
+}
+.fade-enter-active{
+    opacity: 1;
+    transition:all 150ms ease-in;
+}
+.fade-exit{
+    opacity: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 80px;
+}
+.fade-exit-active{
+    opacity: 0;
+    height: 0px;
+    width: 90%;
+    transition:all 150ms ease-out !important;
+}
+.preloader-wrapper.small {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.circle-clipper .circle{
+    border-width: 2px;
+}
+.datepicker-modal{
+    border-radius: 10px;
+}
+.datepicker-date-display{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media only screen and (min-width : 992px) {
+    .container{
+        max-width: 80vw;
+    }
+}
+
+/* .container, .navbar-fixed, .sub-nav-container {
+    padding-left: 300px;
+}
+nav{
+    width:calc(100% - 300px);
+}
+  @media only screen and (max-width : 992px) {
+    .container, .navbar-fixed, .sub-nav-container {
+      padding-left: 0;
+    }
+    nav{
+        width:100%;
+    }
+  } */

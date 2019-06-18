@@ -1,0 +1,112 @@
+.amount-text{
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.6px;
+}
+.dollar-symbol{
+    font-size: 15px;
+    margin-right: 3px;
+}
+.collapsible{
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12) !important;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.collapsible-header, .collapsible, .collapsible-body{
+    border-width: 0px !important;
+    border-radius: 8px;
+    background: white;
+}
+.collapsible-header{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lato';
+    max-height: 80px !important;
+}
+.collapsible-header:focus{
+    background: white !important;
+}
+.exchange-title{
+    font-size: 19px;
+}
+.exchange-date{
+  color: rgba(0,0,0,0.7);
+  padding-top: 2px;
+  font-size: 13px;
+}
+.exchange-details{
+    margin-bottom: 20px;
+}
+.exchange-type{
+    font-size: 13px;
+    color:gray;
+    margin-top: 5px;
+    letter-spacing: 0.6px;
+    display: none;
+}
+.exchange-category{
+    padding: 0px 8px 0px 12px;
+    font-size: 12px;
+    border-radius: 50px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.05);
+    color:rgba(0,0,0,0.6);
+    display: block;
+    margin-left: -5px;
+    width: fit-content;
+}
+.exchange-category>.material-icons{
+    font-size: 17px !important;
+    margin-left: 3px !important;
+    margin-top: 7.5px;
+    transform: rotateX(180);
+}
+.green-text{
+    color: #43A047 !important;
+}
+.collapsible-body{
+    padding: 0px 20px 20px 20px;
+    font-family: 'Lato';
+}
+.delete-btn{
+    padding-left:15px;
+    padding-right: 15px;
+    background: rgba(0,0,0,0.05) !important;
+    color: rgba(0,0,0,0.5);
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: none;
+    border-radius: 10px;
+    margin-left: auto;
+}
+.delete-btn:hover{
+    background: rgba(0,0,0,0.1) !important;
+}
+.btn > .material-icons {
+    margin-right: 5px !important
+}
+.collapsible.popout>li{
+    background: white;
+    margin:0px;
+    box-shadow: none;
+    transition: all 0.1s ease-in !important;
+    border-radius: 8px;
+    width: 100%;
+}
+.collapsible.popout>li.active{
+    width: 103%;
+    margin: 0px;
+    margin-left: -1.5%;
+    box-shadow: 0 0px 11px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0);
+}
+.delete-btn-loader{
+    margin-left: auto;
+    margin-right: 15px;
+    padding-bottom: 0px;
+}
