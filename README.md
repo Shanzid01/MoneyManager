@@ -17,7 +17,7 @@ Fully responsive design - works with all major browsers and devices.<br/><br/>
 
 
  **Project folder structure**
- - 'client' folder contains all front-end code (built with `npm create-react-app`)
+ - 'client' folder contains all front-end code (built with `create-react-app`)
     - '/src/components' contains all "dumb" components
     - '/src/containers' contains all the primary screens
     - '/src/styles' contains all css styling
