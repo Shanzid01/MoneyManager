@@ -1,4 +1,4 @@
-# MoneyManager
+# MoneyManager <image src="client/public/images/logo.png" width=50>
 Full-stack web application for recording and monitoring daily finances.<br/><br />
 **Web app: https://moneymanager.gq/app**<br/>
 **Android app: https://play.google.com/store/apps/details?id=com.shanzid.moneymanager**<br />
