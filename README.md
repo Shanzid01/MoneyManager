@@ -30,13 +30,16 @@ Homepage: https://moneymanager.gq<br /> <br />
  - 'android' folder contains relevant code for the one (and only) activity in the project (i.e. MainActivity)
     - MainActivity contains a WebView which loads the [web app url](https://moneymanager.gq/app)
 
+**External resources/libraries**
+ - [Materialize.css](https://materializecss.com/) for the UI/UX
+
 ## Author
 
 * **Shanzid Shaiham** - *Initial work* - [Shanzid](https://shanzid.com)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
 
 **NOTE**:
 You must add your own firebase project configurations in the keys folders (in both '/client' and '/functions') to successfully deploy this project in your own environment.
