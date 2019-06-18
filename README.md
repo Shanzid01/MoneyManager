@@ -1,4 +1,4 @@
-# MoneyManager
+# [MoneyManager](https://moneymanager.gq)
 
 Full-stack web application for recording and monitoring daily finances.<br/>
 **Web app: [https://moneymanager.gq/app](https://moneymanager.gq/app)**<br/>
