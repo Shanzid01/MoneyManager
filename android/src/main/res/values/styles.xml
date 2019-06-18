@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/moneymanager</item>
+        <item name="colorPrimaryDark">@color/moneymanager</item>
+        <item name="colorAccent">@color/moneymanager</item>
+    </style>
+</resources>
