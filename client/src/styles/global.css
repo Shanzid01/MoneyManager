@@ -44,9 +44,13 @@ input::-webkit-inner-spin-button {
     border-radius: 10px !important;
     margin-bottom: -10px;
 }
+#root>div{
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 40px;
+}
 body{
     background: #FAFAFA !important;
-    padding-bottom: 85px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;

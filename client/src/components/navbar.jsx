@@ -43,7 +43,7 @@ class Navbar extends Component{
                 {/* <span data-target="mobile-sidenav" className="sidenav-trigger hide-on-large-only"><i className="material-icons">menu</i></span> */}
                 <ul className="right menu-container">
                     <li>
-                        <Link to={'/app/statistics'} className={"waves-effect waves-light z-depth-0 transparent menu-options "}>
+                        <Link to={'/statistics'} className={"waves-effect waves-light z-depth-0 transparent menu-options "}>
                             <i className="material-icons left">equalizer</i>
                             <span className="hide-on-small-only menu-label">Money Statistics</span>
                         </Link>
@@ -77,7 +77,7 @@ class Navbar extends Component{
             </nav>
             {/* <ul className="sidenav z-depth-0 sidenav-fixed" id="mobile-sidenav">
                 <li><Link to={'/app'} className="waves-effect"><i className="material-icons">home</i>Dashboard</Link></li>
-                <li><Link to={'/app/statistics'} className="waves-effect"><i className="material-icons">equalizer</i>Statistics</Link></li>
+                <li><Link to={'/statistics'} className="waves-effect"><i className="material-icons">equalizer</i>Statistics</Link></li>
                 <li><Link to={'/'} className="waves-effect"><i className="material-icons">person</i>My Account</Link></li>
             </ul> */}
         </div>

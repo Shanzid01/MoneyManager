@@ -1,0 +1,19 @@
+.footer-body{
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    position: absolute;
+    bottom: -45px !important;
+    color: #607D8B;
+    background: rgba(0,0,0,0.07);
+}
+.footer-body>a{
+    color: #607D8B;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    text-decoration: underline;
+}
+.footer-body>a:hover{
+    color: #37474F;
+}

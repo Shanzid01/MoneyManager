@@ -10,6 +10,7 @@ import {firebaseApp} from '../helpers/firebase';
 import Loader from '../helpers/preloader';
 import M from 'materialize-css';
 import CloudFunctionURL from '../helpers/constants';
+import Footer from '../components/footer';
 
 export default class Statistics extends Component{
     constructor(props){
@@ -466,6 +467,7 @@ export default class Statistics extends Component{
                 </div>
             </div>
         </div>
+        <Footer />
         </div>
     )}
 }

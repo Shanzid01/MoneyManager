@@ -3,6 +3,7 @@ import SignIn from '../components/signin';
 import SignUp from '../components/signup';
 import ForgotPassword from '../components/forgotPassword'
 import {firebaseApp} from '../helpers/firebase';
+import Footer from '../components/footer';
 
 class Auth extends Component{
     constructor(props){
@@ -26,6 +27,7 @@ class Auth extends Component{
                 (this.state.activeForm==='up'? 
                 <SignUp toggleForm={()=>this.setState({activeForm: 'in'})}/>:
                 <ForgotPassword toggleForm={(q)=>this.setState({activeForm: q})} />)}
+            <Footer />
         </div>
     )};
 }

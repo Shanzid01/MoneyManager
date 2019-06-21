@@ -11,6 +11,7 @@ import AccountSummary from '../components/accountSummary';
 import '../styles/app.css';
 import {firebaseApp} from '../helpers/firebase';
 import CloudFunctionURL from '../helpers/constants';
+import Footer from '../components/footer';
 
 class App extends Component{
     constructor(props){
@@ -128,6 +129,7 @@ class App extends Component{
                 </div>:null
          }
          </div>
+         <Footer />
         </div>
     )}
 }

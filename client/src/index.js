@@ -13,7 +13,9 @@ ReactDom.render(
         <Route exact path="/app" component={App} />
         <Route exact path="/auth" component={Auth} />
         <Route path="/settings" component={UserAccount} />
-        <Route path="/app/statistics" component={Statistics} />
+        <Route exact path="/privacy" render={() => {window.location.href="PrivacyPolicy.html"}} />
+        <Route exact path="/terms" render={() => {window.location.href="terms_and_conditions.html"}} />
+        <Route path="/statistics" component={Statistics} />
     </BrowserRouter>
    , document.getElementById('root')
 );

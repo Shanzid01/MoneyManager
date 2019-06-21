@@ -5,6 +5,7 @@ import M from 'materialize-css';
 import '../styles/userAccount.css';
 import Loader from '../helpers/preloader';
 import Currencies from '../helpers/currencyList';
+import Footer from '../components/footer';
 
 export default class Account extends Component{
     constructor(props){
@@ -238,6 +239,7 @@ export default class Account extends Component{
                     </li>
                 </ul>
             </div>
+            <Footer />
         </div>
     )}
 }
