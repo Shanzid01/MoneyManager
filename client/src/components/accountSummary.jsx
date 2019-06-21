@@ -32,6 +32,7 @@ class AccountSummary extends Component{
             inDuration:150,
             outDuration:150
         });
+        M.Modal.init(document.querySelectorAll('.modal'), {});
     }
     componentDidMount(){
         this.initializeComponents();
@@ -54,7 +55,8 @@ class AccountSummary extends Component{
         }
     }
     createNewAccount(){
-        let accountName=prompt("New account name");
+        let accountName=document.getElementById('new-account-name-input').value;
+        document.getElementById('new-account-name-input').value='';
         if(!accountName){return}
         this.props.createNewAccount(accountName);
     }
@@ -68,8 +70,20 @@ class AccountSummary extends Component{
                     {this.props.accounts.map((item, key)=>{
                         return <li key={key}><span onClick={()=>this.changeAccount(item)}>{item}</span></li>
                     })}
-                    <li><span onClick={()=>this.createNewAccount()}>Create new<i className="material-icons right">add</i></span></li>
+                    <li><a href="#new-account-modal" className="modal-trigger">Create new<i className="material-icons right">add</i></a></li>
                 </ul>
+            </div>
+            <div id="new-account-modal" class="modal">
+                <div class="modal-content black-text">
+                    <span style={{"fontSize": "18px"}}>Account name</span>
+                    <a href="#!" className="right modal-close"><i className="material-icons grey-text">clear</i></a>
+                    <div style={{"marginTop":"10px"}}>
+                        <div className="col s12 input-field">
+                            <input id="new-account-name-input" placeholder="eg. Savings.." />
+                        </div>
+                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-0" onClick={()=>this.createNewAccount()}>Save</a>
+                    </div>
+                </div>
             </div>
             <div className="account-balance">
                 <div className="balance-text">
